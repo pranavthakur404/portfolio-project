@@ -293,7 +293,7 @@ nav .logo-text {
   right: 0px;
   width: 100%;
   height: 100%;
-  transform: scaleX(1);
+  /* transform: scaleX(1); */
   background-color: #1f1f1f9a;
   z-index: 0;
 }
@@ -441,7 +441,7 @@ nav .logo-text {
 }
 .skill-fade-text{
     position: absolute;
-    bottom: -10%;
+    bottom: -7%;
     right: -8%;
     font-size: 10rem;
     font-weight: 600;
@@ -489,3 +489,124 @@ nav .logo-text {
     text-align: justify;
 }
 /* skills section ends */
+
+/* contact-form start */
+.contact-form{
+    width: 100%;
+    padding: 3% 1%;
+    background: rgb(231, 231, 231);;
+}
+.contact-form-heading{
+    text-align: center;
+    font-size: 2.2rem;
+    color: #11162d;
+}
+.contact-form form{
+     width: 60%;
+     margin: 0 auto;
+     margin-top: 50px;
+}
+.contact-form form input{
+    width: 100%;
+    height: 30px;
+    padding: 3%;
+    border: none;
+    margin-bottom:25px;
+    box-shadow: 0px 3px 5px 0px grey;
+    color: grey;
+    outline: none;
+}
+.contact-form form textarea{
+    width: 100%;
+    height: 90px;
+    padding: 2%;
+    margin-bottom: 25px;
+    outline:none;
+    border: none;
+    box-shadow: 0px 3px 5px 0px grey;
+}
+/* contact-form ends */
+
+/* footer section start */
+footer{
+    padding: 3% 2%;
+    background-color: rgb(52, 52, 97);
+    position: relative;
+    overflow: hidden;
+}
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links{
+    display: flex;
+    gap: 25px;
+}
+.footer-links li{
+    list-style-type: none;
+}
+.footer-links li a{
+   text-decoration: none;
+   color: white;
+   font-size: 17px;
+}
+.social-links{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+.social-links a{
+    text-decoration: none;
+    color: white;
+}
+.social-links a i{
+    font-size: 22px;
+}
+.footer-fade-text{
+    position: absolute;
+    font-size: 2.5rem;
+    color: rgb(152, 152, 152);
+    bottom: -6px;
+    left: 0%;
+    user-select: none;
+}
+/* footer section ends */
+
+@media only screen and (max-width:787px) {
+    .hero-section .box{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .hero-section-description{
+        text-align: center;
+        width: 100%;
+    }
+    .hero-btn{
+        margin: 0 auto;
+    }
+    .hero-section .right{
+        width: 50%;
+        
+    }
+    .hero-section .unselected-text{
+        bottom: -4.5%;
+    } 
+}
+@media only screen and (max-width:933px){
+    .project-card{
+        width: 100%;
+    }
+    .project2 {
+        margin-left: 0%;
+    }
+    .project4 {
+        margin-left: 0%;
+    }
+}
+@media only screen and (max-width:740px){
+    .skills-section .box{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
